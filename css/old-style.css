@@ -1,0 +1,27 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mantra-container {
+  text-align: center;
+  padding: 50px;
+  color: white;
+  background: url('gayatri-matra.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.mantra-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.meaning {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #f0f0f0;
+}
